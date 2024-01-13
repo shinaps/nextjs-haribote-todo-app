@@ -58,9 +58,14 @@ export const TaskForm = ({ editProps }: TaskFormProps) => {
           name="task"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Add New Task</FormLabel>
+              <FormLabel>
+                {editProps ? "Update Task" : "Add New Task"}
+              </FormLabel>
               <FormControl>
-                <Input placeholder="add new task..." {...field} />
+                <Input
+                  placeholder={editProps ? "update task..." : "add new task..."}
+                  {...field}
+                />
               </FormControl>
               <FormDescription>20文字以内で入力してください。</FormDescription>
               <FormMessage />
