@@ -3,6 +3,8 @@
 Nextの学習をするためのハリボテのtodoアプリを作りました。 <br>
 コンポーネントの作成には[shadcn/ui](https://ui.shadcn.com/)を使用しています。
 
+[このテンプレートを使用して作成したプロジェクトはこちら](https://github.com/shinaps/nextjs-haribote-todo-app/wiki)
+
 ### デモ動画
 
 https://github.com/shinaps/nextjs-haribote-todo-app/assets/113443658/12a9c42f-c76b-4011-8099-27f641f8db23
