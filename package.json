@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test playwright": "npx playwright test",
+    "test playwright with ui": "npx playwright test --ui",
+    "show report": "npx playwright show-report"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
